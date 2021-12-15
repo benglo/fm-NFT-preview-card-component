@@ -19,8 +19,9 @@ body {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   background: var(--clr-main);
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2,
@@ -38,7 +39,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 1.25em;
+  padding: 1.5em;
   border-radius: 1em;
   width: 22em;
 
