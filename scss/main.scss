@@ -18,8 +18,9 @@
 body {
   font-family: "Outfit", sans-serif;
   background: var(--clr-main);
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2,
